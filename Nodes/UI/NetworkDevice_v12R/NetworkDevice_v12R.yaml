@@ -1,0 +1,4 @@
+Name: NetworkDevice_v12R
+Type: FolderType
+Children:
+- File: raC_12_04_raC_Dvc_S5700_UI/raC_12_04_raC_Dvc_S5700_UI.yaml

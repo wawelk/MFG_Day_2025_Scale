@@ -1,0 +1,5 @@
+Name: RAEtherNet_IPDriver1
+Type: RAEtherNetIPDriver
+Children:
+- File: ControlLogix/ControlLogix.yaml
+- File: CompactLogix/CompactLogix.yaml

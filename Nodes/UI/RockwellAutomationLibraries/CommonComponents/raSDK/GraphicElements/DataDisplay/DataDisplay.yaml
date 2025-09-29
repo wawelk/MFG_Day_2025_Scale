@@ -1,0 +1,7 @@
+Name: DataDisplay
+Type: FolderType
+Children:
+- File: Trends/Trends.yaml
+- File: Numeric/Numeric.yaml
+- File: Time/Time.yaml
+- File: Bargraph/Bargraph.yaml

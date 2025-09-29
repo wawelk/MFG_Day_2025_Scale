@@ -1,0 +1,7 @@
+Name: IOLinkDevice_v3R
+Type: FolderType
+Children:
+- File: raC_3_03_raC_Dvc_45CRM_UI/raC_3_03_raC_Dvc_45CRM_UI.yaml
+- File: raC_3_03_raC_Dvc_45DMS_UI/raC_3_03_raC_Dvc_45DMS_UI.yaml
+- File: raC_3_03_raC_Dvc_42EF_UI/raC_3_03_raC_Dvc_42EF_UI.yaml
+- File: raC_3_03_raC_Dvc_871TM_UI/raC_3_03_raC_Dvc_871TM_UI.yaml

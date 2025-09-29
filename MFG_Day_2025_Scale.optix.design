@@ -1,0 +1,53 @@
+Project:
+ Name: MFG_Day_2025_Scale_Design
+ ProjectNamespaceIndex: 4
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.6
+ CoreVersion: 4.2
+ Dependencies:
+  2:
+   Uri: MFG_Day_2025_Scale
+   RelativePath: MFG_Day_2025_Scale.optix
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 5.0
+  5:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  6:
+   Uri: 'urn:FTOptix:MicroControllerTagImporter'
+   Module: FTOptix.MicroControllerTagImporter
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 2.0
+  9:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 4.0
+ Statistics:
+  TotalNodeCount: 16
+  Objects: 4
+  ObjectTypes: 0
+  Variables: 12
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 4
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/MicroControllerDriver1/Micro820/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/CompactLogix/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/ControlLogix/CompactLogix/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/ControlLogix/TagImporter.yaml

@@ -1,0 +1,5 @@
+Name: DataDisplay
+Type: FolderType
+Children:
+- File: Boolean/Boolean.yaml
+- File: String/String.yaml

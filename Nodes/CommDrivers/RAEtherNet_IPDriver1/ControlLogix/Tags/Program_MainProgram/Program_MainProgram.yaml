@@ -1,0 +1,4536 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: raC_LD_Dvc_Stratix
+  Type: raC_Dvc_StratixAll
+  DataType: raC_Dvc_StratixAll
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.EnableOut"
+  - Name: Inp_Enable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Inp_Enable"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EN"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_ER"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_Connected"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_Available"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_Warning"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_Faulted"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_bNotReady"
+  - Name: raC_Dvc_StratixAll
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.raC_Dvc_StratixAll"
+  - Name: HMI_Ref
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Ref"
+  - Name: Cmd_ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Cmd_ResetFault"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Tab"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Inf_Lib"
+  - Name: Wrk_bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Wrk_bSts"
+  - Name: Sts_EventValue
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventValue"
+  - Name: Sts_EventTimeD1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventTimeD1"
+  - Name: Sts_EventTimeD2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventTimeD2"
+  - Name: Sts_EventTimeD3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventTimeD3"
+  - Name: Sts_EventTimeD0
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventTimeD0"
+  - Name: Sts_EventMessage
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventMessage"
+  - Name: Sts_EventType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Sts_EventType"
+  - Name: HMI_Parameters
+    Type: raC_UDT_StratixHMI
+    DataType: raC_UDT_StratixHMI
+    Children:
+    - Name: HMI_Pointer
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.HMI_Pointer"
+    - Name: Home
+      Type: raC_UDT_StratixTab0_Home
+      DataType: raC_UDT_StratixTab0_Home
+      Children:
+      - Name: DeviceName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.DeviceName"
+      - Name: Ports
+        Type: raC_UDT_StratixPortIndicator
+        DataType: raC_UDT_StratixPortIndicator
+        ValueRank: OneDimension
+        ArrayDimensions: [30]
+        Children:
+        - Name: 0
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[0].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[0].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[0].SelectPort"
+        - Name: 1
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[1].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[1].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[1].SelectPort"
+        - Name: 2
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[2].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[2].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[2].SelectPort"
+        - Name: 3
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[3].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[3].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[3].SelectPort"
+        - Name: 4
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[4].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[4].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[4].SelectPort"
+        - Name: 5
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[5].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[5].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[5].SelectPort"
+        - Name: 6
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[6].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[6].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[6].SelectPort"
+        - Name: 7
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[7].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[7].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[7].SelectPort"
+        - Name: 8
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[8].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[8].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[8].SelectPort"
+        - Name: 9
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[9].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[9].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[9].SelectPort"
+        - Name: 10
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[10].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[10].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[10].SelectPort"
+        - Name: 11
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[11].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[11].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[11].SelectPort"
+        - Name: 12
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[12].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[12].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[12].SelectPort"
+        - Name: 13
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[13].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[13].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[13].SelectPort"
+        - Name: 14
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[14].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[14].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[14].SelectPort"
+        - Name: 15
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[15].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[15].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[15].SelectPort"
+        - Name: 16
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[16].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[16].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[16].SelectPort"
+        - Name: 17
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[17].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[17].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[17].SelectPort"
+        - Name: 18
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[18].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[18].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[18].SelectPort"
+        - Name: 19
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[19].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[19].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[19].SelectPort"
+        - Name: 20
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[20].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[20].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[20].SelectPort"
+        - Name: 21
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[21].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[21].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[21].SelectPort"
+        - Name: 22
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[22].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[22].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[22].SelectPort"
+        - Name: 23
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[23].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[23].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[23].SelectPort"
+        - Name: 24
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[24].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[24].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[24].SelectPort"
+        - Name: 25
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[25].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[25].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[25].SelectPort"
+        - Name: 26
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[26].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[26].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[26].SelectPort"
+        - Name: 27
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[27].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[27].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[27].SelectPort"
+        - Name: 28
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[28].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[28].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[28].SelectPort"
+        - Name: 29
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[29].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[29].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Ports[29].SelectPort"
+      - Name: Port_Layout
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Port_Layout"
+      - Name: Power_1
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Power_1"
+      - Name: Power_2
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Power_2"
+      - Name: SD_Card
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.SD_Card"
+      - Name: POE_Ports
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.POE_Ports"
+      - Name: Set_Select_Exp
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Set_Select_Exp"
+      - Name: Base
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Base"
+      - Name: Mod1
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Mod1"
+      - Name: Mod2
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Mod2"
+      - Name: Temperature
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.Temperature"
+      - Name: UpTime
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.UpTime"
+      - Name: PS_Type
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [2]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Home.PS_Type"
+    - Name: Switch
+      Type: raC_UDT_StratixTab1_Switch
+      DataType: raC_UDT_StratixTab1_Switch
+      Children:
+      - Name: General
+        Type: raC_UDT_StratixTab1_Switch_General
+        DataType: raC_UDT_StratixTab1_Switch_General
+        Children:
+        - Name: Model
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.Model"
+        - Name: Serial_Number
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.Serial_Number"
+        - Name: SW_Version
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.SW_Version"
+        - Name: CIP_Major_Rev
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.CIP_Major_Rev"
+        - Name: CIP_Minor_Rev
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.CIP_Minor_Rev"
+        - Name: FW_Type
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.FW_Type"
+        - Name: DLR
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.DLR"
+        - Name: PTP
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.PTP"
+        - Name: NAT
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.NAT"
+        - Name: Expansion1
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.General.Expansion1"
+      - Name: Config
+        Type: raC_UDT_StratixTab1_Switch_Config
+        DataType: raC_UDT_StratixTab1_Switch_Config
+        Children:
+        - Name: IP_Address
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.IP_Address"
+        - Name: Subnet_Mask
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.Subnet_Mask"
+        - Name: Gateway_Address
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.Gateway_Address"
+        - Name: Name_Server_1
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.Name_Server_1"
+        - Name: Name_Server_2
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.Name_Server_2"
+        - Name: Domain_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.Domain_Name"
+        - Name: SpanningTree
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.Config.SpanningTree"
+      - Name: PTP_GM
+        Type: raC_UDT_StratixTab1_Switch_PTPGM
+        DataType: raC_UDT_StratixTab1_Switch_PTPGM
+        Children:
+        - Name: GM_Identity
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Identity"
+        - Name: GM_Identity_String
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Identity_String"
+        - Name: GM_Class
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Class"
+        - Name: GM_Accuracy
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Accuracy"
+        - Name: GM_Variance
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Variance"
+        - Name: GM_Variance_DINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Variance_DINT"
+        - Name: GM_Source
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Source"
+        - Name: GM_Priority1
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Priority1"
+        - Name: GM_Priority2
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.GM_Priority2"
+        - Name: PTP_Enable
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.PTP_Enable"
+        - Name: ClockType
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_GM.ClockType"
+      - Name: PTP_LOC
+        Type: raC_UDT_StratixTab1_Switch_PTPLOC
+        DataType: raC_UDT_StratixTab1_Switch_PTPLOC
+        Children:
+        - Name: SyncStatus
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.SyncStatus"
+        - Name: Local_Identity
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Identity"
+        - Name: Local_Identity_String
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Identity_String"
+        - Name: Local_Class
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Class"
+        - Name: Local_Accuracy
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Accuracy"
+        - Name: Local_Variance
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Variance"
+        - Name: Local_Variance_DINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Variance_DINT"
+        - Name: Local_Source
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.PTP_LOC.Local_Source"
+      - Name: VLAN
+        Type: raC_UDT_StratixTab1_Switch_VLAN
+        DataType: raC_UDT_StratixTab1_Switch_VLAN
+        Children:
+        - Name: VLAN_Number
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          ValueRank: OneDimension
+          ArrayDimensions: [16]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.VLAN.VLAN_Number"
+        - Name: VLAN_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [16]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.VLAN.VLAN_Name"
+        - Name: Configured
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Switch.VLAN.Configured"
+    - Name: Port
+      Type: raC_UDT_StratixTab2_Port
+      DataType: raC_UDT_StratixTab2_Port
+      Children:
+      - Name: Port_Selector
+        Type: raC_UDT_StratixPortSelector
+        DataType: raC_UDT_StratixPortSelector
+        Children:
+        - Name: Selected_Port_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.Selected_Port_Name"
+        - Name: PortNames
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [30]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.PortNames"
+        - Name: Set_Port_Up
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.Set_Port_Up"
+        - Name: Set_Port_Down
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.Set_Port_Down"
+        - Name: NumberOfPorts
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.NumberOfPorts"
+        - Name: ActivePortNumber
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.ActivePortNumber"
+        - Name: List_Shift
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.List_Shift"
+        - Name: List_Select
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.List_Select"
+        - Name: Slider_Min
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.Slider_Min"
+        - Name: Slider_Max
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.Slider_Max"
+        - Name: List_Display
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.List_Display"
+        - Name: List_State
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Port_Selector.List_State"
+      - Name: Status
+        Type: raC_UDT_StratixTab2_Port_Status
+        DataType: raC_UDT_StratixTab2_Port_Status
+        Children:
+        - Name: Link_Status
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.Link_Status"
+        - Name: Port_Speed
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.Port_Speed"
+        - Name: InterfaceFlags
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.InterfaceFlags"
+        - Name: SmartPort_Number
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.SmartPort_Number"
+        - Name: Mode
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.Mode"
+        - Name: VLAN
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.VLAN"
+        - Name: Utilization
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Status.Utilization"
+      - Name: Stats
+        Type: raC_UDT_StratixTab2_Port_Stats
+        DataType: raC_UDT_StratixTab2_Port_Stats
+        Children:
+        - Name: InOctets_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InOctets_UDINT"
+        - Name: InUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InUCast_UDINT"
+        - Name: InNUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InNUCast_UDINT"
+        - Name: InDiscards
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InDiscards"
+        - Name: InErrors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InErrors"
+        - Name: InUnkn_Protocols
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.InUnkn_Protocols"
+        - Name: OutOctets_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.OutOctets_UDINT"
+        - Name: OutUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.OutUCast_UDINT"
+        - Name: OutNUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.OutNUCast_UDINT"
+        - Name: OutDiscards
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.OutDiscards"
+        - Name: OutErrors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Stats.OutErrors"
+      - Name: MediaCounters
+        Type: raC_UDT_StratixTab2_Port_Media
+        DataType: raC_UDT_StratixTab2_Port_Media
+        Children:
+        - Name: Alignment_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Alignment_Errors"
+        - Name: FCS_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.FCS_Errors"
+        - Name: Single_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Single_Collisions"
+        - Name: Multiple_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Multiple_Collisions"
+        - Name: SQE_Test_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.SQE_Test_Errors"
+        - Name: Deferred_Transmissions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Deferred_Transmissions"
+        - Name: Late_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Late_Collisions"
+        - Name: Excessive_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Excessive_Collisions"
+        - Name: MAC_TX_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.MAC_TX_Errors"
+        - Name: Carrier_Sense_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Carrier_Sense_Errors"
+        - Name: Frame_Too_Long
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.Frame_Too_Long"
+        - Name: MAC_RX_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.MediaCounters.MAC_RX_Errors"
+      - Name: Thresholds
+        Type: raC_UDT_StratixTab2_Port_Thresholds
+        DataType: raC_UDT_StratixTab2_Port_Thresholds
+        Children:
+        - Name: Threshold_Broadcast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_Broadcast_Unit"
+        - Name: Threshold_Broadcast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_Broadcast_Val"
+        - Name: Threshold_Unicast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_Unicast_Unit"
+        - Name: Threshold_Unicast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_Unicast_Val"
+        - Name: Threshold_Multicast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_Multicast_Unit"
+        - Name: Threshold_MultiCast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.Thresholds.Threshold_MultiCast_Val"
+      - Name: PTP
+        Type: raC_UDT_StratixTab2_Port_PTP
+        DataType: raC_UDT_StratixTab2_Port_PTP
+        Children:
+        - Name: PortPTP_State
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.PTP.PortPTP_State"
+        - Name: PortPTP_Enable
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Port.PTP.PortPTP_Enable"
+    - Name: Alarm
+      Type: raC_UDT_StratixTab3_Alarm
+      DataType: raC_UDT_StratixTab3_Alarm
+      Children:
+      - Name: Global
+        Type: raC_UDT_StratixTab3_AlarmGlobal
+        DataType: raC_UDT_StratixTab3_AlarmGlobal
+        Children:
+        - Name: SD_Card
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.SD_Card"
+        - Name: Power_Supply
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Power_Supply"
+        - Name: License_File
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.License_File"
+        - Name: Primary_Temperature
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Primary_Temperature"
+        - Name: Secondary_Temperature
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Secondary_Temperature"
+        - Name: Major_Output
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Major_Output"
+        - Name: Input_1
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Input_1"
+        - Name: Input_2
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Input_2"
+        - Name: Input_3
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Input_3"
+        - Name: Input_4
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global.Input_4"
+      - Name: Port
+        Type: raC_UDT_StratixTab3_AlarmPort
+        DataType: raC_UDT_StratixTab3_AlarmPort
+        Children:
+        - Name: Port_Alarm
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Port_Alarm"
+        - Name: Unauthorized_Device
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Unauthorized_Device"
+        - Name: Link_Fault
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Link_Fault"
+        - Name: Not_Forwarding
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Not_Forwarding"
+        - Name: Not_Operating
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Not_Operating"
+        - Name: FCS_Error
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.FCS_Error"
+        - Name: Port_Error_Disable
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Port_Error_Disable"
+        - Name: SFP_Security
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.SFP_Security"
+        - Name: Native_VLan_Mismatch
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Native_VLan_Mismatch"
+        - Name: MAC_Address_Flap
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.MAC_Address_Flap"
+        - Name: Port_Security_Violation
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Port_Security_Violation"
+        - Name: Threshold_Exceeded
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port.Threshold_Exceeded"
+      - Name: Global_Alarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Global_Alarm"
+      - Name: Port_Alarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm.Port_Alarm"
+    - Name: Platform
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Platform"
+    - Name: Animation_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Animation_Active"
+    - Name: Tab_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Tab_Active"
+    - Name: SubTab_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.SubTab_Active"
+    - Name: Help_Index
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Help_Index"
+    - Name: Alarm_Active
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.Alarm_Active"
+    - Name: AOI_Error
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.AOI_Error"
+    - Name: AOI_Enabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.AOI_Enabled"
+    - Name: AOI_Vendor_Error
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Parameters.AOI_Vendor_Error"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Inf_Type"
+  - Name: HMI_Version
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.HMI_Version"
+  - Name: Wrk_DvcName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Wrk_DvcName"
+  - Name: Wrk_SimulatedProductCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.raC_LD_Dvc_Stratix.Wrk_SimulatedProductCode"
+- Name: Stratix111
+  Id: g=6ace1cce650ec1cbfbeba6b5cec731e4
+  Type: raC_Dvc_StratixAll
+  DataType: raC_Dvc_StratixAll
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.EnableOut"
+  - Name: Inp_Enable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Inp_Enable"
+  - Name: Sts_EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EN"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_ER"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_Connected"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_Available"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_Warning"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_Faulted"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_bNotReady"
+  - Name: raC_Dvc_StratixAll
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.raC_Dvc_StratixAll"
+  - Name: HMI_Ref
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.HMI_Ref"
+  - Name: Cmd_ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Cmd_ResetFault"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.HMI_Tab"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Inf_Lib"
+  - Name: Wrk_bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Wrk_bSts"
+  - Name: Sts_EventValue
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventValue"
+  - Name: Sts_EventTimeD1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventTimeD1"
+  - Name: Sts_EventTimeD2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventTimeD2"
+  - Name: Sts_EventTimeD3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventTimeD3"
+  - Name: Sts_EventTimeD0
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventTimeD0"
+  - Name: Sts_EventMessage
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventMessage"
+  - Name: Sts_EventType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Sts_EventType"
+  - Name: HMI_Parameters
+    Type: raC_UDT_StratixHMI
+    DataType: raC_UDT_StratixHMI
+    Children:
+    - Name: HMI_Pointer
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.HMI_Pointer"
+    - Name: Home
+      Type: raC_UDT_StratixTab0_Home
+      DataType: raC_UDT_StratixTab0_Home
+      Children:
+      - Name: DeviceName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.DeviceName"
+      - Name: Ports
+        Type: raC_UDT_StratixPortIndicator
+        DataType: raC_UDT_StratixPortIndicator
+        ValueRank: OneDimension
+        ArrayDimensions: [30]
+        Children:
+        - Name: 0
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[0].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[0].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[0].SelectPort"
+        - Name: 1
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[1].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[1].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[1].SelectPort"
+        - Name: 2
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[2].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[2].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[2].SelectPort"
+        - Name: 3
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[3].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[3].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[3].SelectPort"
+        - Name: 4
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[4].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[4].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[4].SelectPort"
+        - Name: 5
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[5].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[5].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[5].SelectPort"
+        - Name: 6
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[6].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[6].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[6].SelectPort"
+        - Name: 7
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[7].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[7].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[7].SelectPort"
+        - Name: 8
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[8].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[8].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[8].SelectPort"
+        - Name: 9
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[9].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[9].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[9].SelectPort"
+        - Name: 10
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[10].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[10].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[10].SelectPort"
+        - Name: 11
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[11].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[11].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[11].SelectPort"
+        - Name: 12
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[12].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[12].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[12].SelectPort"
+        - Name: 13
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[13].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[13].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[13].SelectPort"
+        - Name: 14
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[14].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[14].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[14].SelectPort"
+        - Name: 15
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[15].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[15].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[15].SelectPort"
+        - Name: 16
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[16].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[16].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[16].SelectPort"
+        - Name: 17
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[17].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[17].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[17].SelectPort"
+        - Name: 18
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[18].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[18].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[18].SelectPort"
+        - Name: 19
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[19].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[19].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[19].SelectPort"
+        - Name: 20
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[20].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[20].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[20].SelectPort"
+        - Name: 21
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[21].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[21].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[21].SelectPort"
+        - Name: 22
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[22].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[22].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[22].SelectPort"
+        - Name: 23
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[23].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[23].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[23].SelectPort"
+        - Name: 24
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[24].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[24].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[24].SelectPort"
+        - Name: 25
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[25].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[25].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[25].SelectPort"
+        - Name: 26
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[26].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[26].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[26].SelectPort"
+        - Name: 27
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[27].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[27].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[27].SelectPort"
+        - Name: 28
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[28].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[28].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[28].SelectPort"
+        - Name: 29
+          Type: raC_UDT_StratixPortIndicator
+          DataType: raC_UDT_StratixPortIndicator
+          Children:
+          - Name: PortIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[29].PortIndicator"
+          - Name: SFPIndicator
+            Type: RAEtherNetIPTag
+            DataType: SByte
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[29].SFPIndicator"
+          - Name: SelectPort
+            Type: RAEtherNetIPTag
+            DataType: Boolean
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Ports[29].SelectPort"
+      - Name: Port_Layout
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Port_Layout"
+      - Name: Power_1
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Power_1"
+      - Name: Power_2
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Power_2"
+      - Name: SD_Card
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.SD_Card"
+      - Name: POE_Ports
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.POE_Ports"
+      - Name: Set_Select_Exp
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Set_Select_Exp"
+      - Name: Base
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Base"
+      - Name: Mod1
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Mod1"
+      - Name: Mod2
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Mod2"
+      - Name: Temperature
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.Temperature"
+      - Name: UpTime
+        Type: RAEtherNetIPTag
+        DataType: String
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.UpTime"
+      - Name: PS_Type
+        Type: RAEtherNetIPTag
+        DataType: SByte
+        ValueRank: OneDimension
+        ArrayDimensions: [2]
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Home.PS_Type"
+    - Name: Switch
+      Type: raC_UDT_StratixTab1_Switch
+      DataType: raC_UDT_StratixTab1_Switch
+      Children:
+      - Name: General
+        Type: raC_UDT_StratixTab1_Switch_General
+        DataType: raC_UDT_StratixTab1_Switch_General
+        Children:
+        - Name: Model
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.Model"
+        - Name: Serial_Number
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.Serial_Number"
+        - Name: SW_Version
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.SW_Version"
+        - Name: CIP_Major_Rev
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.CIP_Major_Rev"
+        - Name: CIP_Minor_Rev
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.CIP_Minor_Rev"
+        - Name: FW_Type
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.FW_Type"
+        - Name: DLR
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.DLR"
+        - Name: PTP
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.PTP"
+        - Name: NAT
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.NAT"
+        - Name: Expansion1
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.General.Expansion1"
+      - Name: Config
+        Type: raC_UDT_StratixTab1_Switch_Config
+        DataType: raC_UDT_StratixTab1_Switch_Config
+        Children:
+        - Name: IP_Address
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.IP_Address"
+        - Name: Subnet_Mask
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.Subnet_Mask"
+        - Name: Gateway_Address
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.Gateway_Address"
+        - Name: Name_Server_1
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.Name_Server_1"
+        - Name: Name_Server_2
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.Name_Server_2"
+        - Name: Domain_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.Domain_Name"
+        - Name: SpanningTree
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.Config.SpanningTree"
+      - Name: PTP_GM
+        Type: raC_UDT_StratixTab1_Switch_PTPGM
+        DataType: raC_UDT_StratixTab1_Switch_PTPGM
+        Children:
+        - Name: GM_Identity
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Identity"
+        - Name: GM_Identity_String
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Identity_String"
+        - Name: GM_Class
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Class"
+        - Name: GM_Accuracy
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Accuracy"
+        - Name: GM_Variance
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Variance"
+        - Name: GM_Variance_DINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Variance_DINT"
+        - Name: GM_Source
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Source"
+        - Name: GM_Priority1
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Priority1"
+        - Name: GM_Priority2
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.GM_Priority2"
+        - Name: PTP_Enable
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.PTP_Enable"
+        - Name: ClockType
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_GM.ClockType"
+      - Name: PTP_LOC
+        Type: raC_UDT_StratixTab1_Switch_PTPLOC
+        DataType: raC_UDT_StratixTab1_Switch_PTPLOC
+        Children:
+        - Name: SyncStatus
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.SyncStatus"
+        - Name: Local_Identity
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Identity"
+        - Name: Local_Identity_String
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Identity_String"
+        - Name: Local_Class
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Class"
+        - Name: Local_Accuracy
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Accuracy"
+        - Name: Local_Variance
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Variance"
+        - Name: Local_Variance_DINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Variance_DINT"
+        - Name: Local_Source
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.PTP_LOC.Local_Source"
+      - Name: VLAN
+        Type: raC_UDT_StratixTab1_Switch_VLAN
+        DataType: raC_UDT_StratixTab1_Switch_VLAN
+        Children:
+        - Name: VLAN_Number
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          ValueRank: OneDimension
+          ArrayDimensions: [16]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.VLAN.VLAN_Number"
+        - Name: VLAN_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [16]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.VLAN.VLAN_Name"
+        - Name: Configured
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Switch.VLAN.Configured"
+    - Name: Port
+      Type: raC_UDT_StratixTab2_Port
+      DataType: raC_UDT_StratixTab2_Port
+      Children:
+      - Name: Port_Selector
+        Type: raC_UDT_StratixPortSelector
+        DataType: raC_UDT_StratixPortSelector
+        Children:
+        - Name: Selected_Port_Name
+          Type: RAEtherNetIPTag
+          DataType: String
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.Selected_Port_Name"
+        - Name: PortNames
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [30]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.PortNames"
+        - Name: Set_Port_Up
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.Set_Port_Up"
+        - Name: Set_Port_Down
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.Set_Port_Down"
+        - Name: NumberOfPorts
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.NumberOfPorts"
+        - Name: ActivePortNumber
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.ActivePortNumber"
+        - Name: List_Shift
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.List_Shift"
+        - Name: List_Select
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.List_Select"
+        - Name: Slider_Min
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.Slider_Min"
+        - Name: Slider_Max
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.Slider_Max"
+        - Name: List_Display
+          Type: RAEtherNetIPTag
+          DataType: String
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.List_Display"
+        - Name: List_State
+          Type: RAEtherNetIPTag
+          DataType: SByte
+          ValueRank: OneDimension
+          ArrayDimensions: [5]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Port_Selector.List_State"
+      - Name: Status
+        Type: raC_UDT_StratixTab2_Port_Status
+        DataType: raC_UDT_StratixTab2_Port_Status
+        Children:
+        - Name: Link_Status
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.Link_Status"
+        - Name: Port_Speed
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.Port_Speed"
+        - Name: InterfaceFlags
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.InterfaceFlags"
+        - Name: SmartPort_Number
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.SmartPort_Number"
+        - Name: Mode
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.Mode"
+        - Name: VLAN
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.VLAN"
+        - Name: Utilization
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Status.Utilization"
+      - Name: Stats
+        Type: raC_UDT_StratixTab2_Port_Stats
+        DataType: raC_UDT_StratixTab2_Port_Stats
+        Children:
+        - Name: InOctets_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InOctets_UDINT"
+        - Name: InUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InUCast_UDINT"
+        - Name: InNUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InNUCast_UDINT"
+        - Name: InDiscards
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InDiscards"
+        - Name: InErrors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InErrors"
+        - Name: InUnkn_Protocols
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.InUnkn_Protocols"
+        - Name: OutOctets_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.OutOctets_UDINT"
+        - Name: OutUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.OutUCast_UDINT"
+        - Name: OutNUCast_UDINT
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          ValueRank: OneDimension
+          ArrayDimensions: [2]
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.OutNUCast_UDINT"
+        - Name: OutDiscards
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.OutDiscards"
+        - Name: OutErrors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Stats.OutErrors"
+      - Name: MediaCounters
+        Type: raC_UDT_StratixTab2_Port_Media
+        DataType: raC_UDT_StratixTab2_Port_Media
+        Children:
+        - Name: Alignment_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Alignment_Errors"
+        - Name: FCS_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.FCS_Errors"
+        - Name: Single_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Single_Collisions"
+        - Name: Multiple_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Multiple_Collisions"
+        - Name: SQE_Test_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.SQE_Test_Errors"
+        - Name: Deferred_Transmissions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Deferred_Transmissions"
+        - Name: Late_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Late_Collisions"
+        - Name: Excessive_Collisions
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Excessive_Collisions"
+        - Name: MAC_TX_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.MAC_TX_Errors"
+        - Name: Carrier_Sense_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Carrier_Sense_Errors"
+        - Name: Frame_Too_Long
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.Frame_Too_Long"
+        - Name: MAC_RX_Errors
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.MediaCounters.MAC_RX_Errors"
+      - Name: Thresholds
+        Type: raC_UDT_StratixTab2_Port_Thresholds
+        DataType: raC_UDT_StratixTab2_Port_Thresholds
+        Children:
+        - Name: Threshold_Broadcast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_Broadcast_Unit"
+        - Name: Threshold_Broadcast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_Broadcast_Val"
+        - Name: Threshold_Unicast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_Unicast_Unit"
+        - Name: Threshold_Unicast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_Unicast_Val"
+        - Name: Threshold_Multicast_Unit
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_Multicast_Unit"
+        - Name: Threshold_MultiCast_Val
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.Thresholds.Threshold_MultiCast_Val"
+      - Name: PTP
+        Type: raC_UDT_StratixTab2_Port_PTP
+        DataType: raC_UDT_StratixTab2_Port_PTP
+        Children:
+        - Name: PortPTP_State
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.PTP.PortPTP_State"
+        - Name: PortPTP_Enable
+          Type: RAEtherNetIPTag
+          DataType: Int16
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Port.PTP.PortPTP_Enable"
+    - Name: Alarm
+      Type: raC_UDT_StratixTab3_Alarm
+      DataType: raC_UDT_StratixTab3_Alarm
+      Children:
+      - Name: Global
+        Type: raC_UDT_StratixTab3_AlarmGlobal
+        DataType: raC_UDT_StratixTab3_AlarmGlobal
+        Children:
+        - Name: SD_Card
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.SD_Card"
+        - Name: Power_Supply
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Power_Supply"
+        - Name: License_File
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.License_File"
+        - Name: Primary_Temperature
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Primary_Temperature"
+        - Name: Secondary_Temperature
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Secondary_Temperature"
+        - Name: Major_Output
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Major_Output"
+        - Name: Input_1
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Input_1"
+        - Name: Input_2
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Input_2"
+        - Name: Input_3
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Input_3"
+        - Name: Input_4
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global.Input_4"
+      - Name: Port
+        Type: raC_UDT_StratixTab3_AlarmPort
+        DataType: raC_UDT_StratixTab3_AlarmPort
+        Children:
+        - Name: Port_Alarm
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Port_Alarm"
+        - Name: Unauthorized_Device
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Unauthorized_Device"
+        - Name: Link_Fault
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Link_Fault"
+        - Name: Not_Forwarding
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Not_Forwarding"
+        - Name: Not_Operating
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Not_Operating"
+        - Name: FCS_Error
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.FCS_Error"
+        - Name: Port_Error_Disable
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Port_Error_Disable"
+        - Name: SFP_Security
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.SFP_Security"
+        - Name: Native_VLan_Mismatch
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Native_VLan_Mismatch"
+        - Name: MAC_Address_Flap
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.MAC_Address_Flap"
+        - Name: Port_Security_Violation
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Port_Security_Violation"
+        - Name: Threshold_Exceeded
+          Type: RAEtherNetIPTag
+          DataType: Boolean
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port.Threshold_Exceeded"
+      - Name: Global_Alarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Global_Alarm"
+      - Name: Port_Alarm
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm.Port_Alarm"
+    - Name: Platform
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.Platform"
+    - Name: Animation_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.Animation_Active"
+    - Name: Tab_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.Tab_Active"
+    - Name: SubTab_Active
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.SubTab_Active"
+    - Name: Help_Index
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.Help_Index"
+    - Name: Alarm_Active
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.Alarm_Active"
+    - Name: AOI_Error
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.AOI_Error"
+    - Name: AOI_Enabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.AOI_Enabled"
+    - Name: AOI_Vendor_Error
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Stratix111.HMI_Parameters.AOI_Vendor_Error"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Inf_Type"
+  - Name: HMI_Version
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.HMI_Version"
+  - Name: Wrk_DvcName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Wrk_DvcName"
+  - Name: Wrk_SimulatedProductCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Stratix111.Wrk_SimulatedProductCode"

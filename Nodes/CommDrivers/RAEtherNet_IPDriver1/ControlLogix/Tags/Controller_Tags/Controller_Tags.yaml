@@ -1,0 +1,755 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: 'RIO001:1:I'
+  Type: 'AB:1734_4IOLDF4A2CD0:I:0'
+  DataType: 'AB:1734_4IOLDF4A2CD0:I:0'
+  Children:
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Fault"
+  - Name: Status
+    Type: 'AB:1734_4IOL_Struct_Status:I:0'
+    DataType: 'AB:1734_4IOL_Struct_Status:I:0'
+    Children:
+    - Name: Ch0Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0Fault"
+    - Name: Ch0ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0ConnectionFaulted"
+    - Name: Ch0ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0ConfigurationInProgress"
+    - Name: Ch0ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0ConfigurationFault"
+    - Name: Ch0KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0KeyingFault"
+    - Name: Ch0ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0ShortCircuit"
+    - Name: Ch0DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0DataInvalid"
+    - Name: Ch0PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0PowerFault"
+    - Name: Ch0ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch0ClampAlarm"
+    - Name: Ch1Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1Fault"
+    - Name: Ch1ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1ConnectionFaulted"
+    - Name: Ch1ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1ConfigurationInProgress"
+    - Name: Ch1ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1ConfigurationFault"
+    - Name: Ch1KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1KeyingFault"
+    - Name: Ch1ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1ShortCircuit"
+    - Name: Ch1DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1DataInvalid"
+    - Name: Ch1PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1PowerFault"
+    - Name: Ch1ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch1ClampAlarm"
+    - Name: Ch2Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2Fault"
+    - Name: Ch2ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2ConnectionFaulted"
+    - Name: Ch2ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2ConfigurationInProgress"
+    - Name: Ch2ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2ConfigurationFault"
+    - Name: Ch2KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2KeyingFault"
+    - Name: Ch2ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2ShortCircuit"
+    - Name: Ch2DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2DataInvalid"
+    - Name: Ch2PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2PowerFault"
+    - Name: Ch2ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch2ClampAlarm"
+    - Name: Ch3Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3Fault"
+    - Name: Ch3ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3ConnectionFaulted"
+    - Name: Ch3ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3ConfigurationInProgress"
+    - Name: Ch3ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3ConfigurationFault"
+    - Name: Ch3KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3KeyingFault"
+    - Name: Ch3ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3ShortCircuit"
+    - Name: Ch3DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3DataInvalid"
+    - Name: Ch3PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3PowerFault"
+    - Name: Ch3ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Status.Ch3ClampAlarm"
+  - Name: Ch0DiagEvent
+    Type: 'AB:1734_4IOL_Struct_Event:I:0'
+    DataType: 'AB:1734_4IOL_Struct_Event:I:0'
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch0DiagEvent.Code"
+  - Name: Ch1DiagEvent
+    Type: 'AB:1734_4IOL_Struct_Event:I:0'
+    DataType: 'AB:1734_4IOL_Struct_Event:I:0'
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch1DiagEvent.Code"
+  - Name: Ch2DiagEvent
+    Type: 'AB:1734_4IOL_Struct_Event:I:0'
+    DataType: 'AB:1734_4IOL_Struct_Event:I:0'
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch2DiagEvent.Code"
+  - Name: Ch3DiagEvent
+    Type: 'AB:1734_4IOL_Struct_Event:I:0'
+    DataType: 'AB:1734_4IOL_Struct_Event:I:0'
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RIO001:1:I.Ch3DiagEvent.Code"
+  - Name: Ch0Triggered
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch0Triggered"
+  - Name: Ch1Triggered
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch1Triggered"
+  - Name: Ch1MarginStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch1MarginStatus"
+  - Name: Ch2Distance
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch2Distance"
+  - Name: Ch3Triggered
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch3Triggered"
+  - Name: Ch3MarginLowAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch3MarginLowAlarm"
+  - Name: Ch3ProximityAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch3ProximityAlarm"
+  - Name: Ch3Gain
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch3Gain"
+  - Name: Ch3SignalStrength
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RIO001:1:I.Ch3SignalStrength"
+- Name: Distance_Inches
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Distance_Inches"
